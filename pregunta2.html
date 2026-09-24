@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Cupón - E-commerce</title>
+    <link rel="stylesheet" href="pregunta2.css">
+</head>
+<body>
+
+    <main class="cart-summary">
+        <h2>Resumen del Pedido</h2>
+        
+        <div class="summary-row">
+            <span>Subtotal</span>
+            <span>S/ 100.00</span>
+        </div>
+
+        <!-- Sección de Cupón -->
+        <div class="coupon-section">
+            <div class="input-group">
+                <input type="text" id="coupon-input" placeholder="Ingresa tu cupón (ej. DESC20)">
+                <button id="btn-apply">Aplicar</button>
+            </div>
+            <p id="message" class="feedback-msg"></p>
+        </div>
+
+        <hr class="divider">
+
+        <!-- Total Final -->
+        <div class="summary-row total-row">
+            <span>Total a Pagar</span>
+            <span id="total-price">S/ 100.00</span>
+        </div>
+    </main>
+
+
+</body>
+</html>
