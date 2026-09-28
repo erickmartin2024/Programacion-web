@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Programar sustentacion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Trabajos de Fin de Carrera</h1>
+    <p>Universidad de Lima - Facultad de Ingenieria</p>
+  </header>
+
+  <nav>
+    <a href="#">Tablero</a>
+    <a href="#">Trabajos</a>
+    <a href="#" class="activo">Sustentaciones</a>
+    <a href="#">Usuarios</a>
+    <a href="#">Mi cuenta</a>
+  </nav>
+
+  <main>
+    <h2>Programar sustentacion</h2>
+    <p>Solo los trabajos en estado Concluido pueden programarse.</p>
+
+    <form>
+      <label>Trabajo concluido</label>
+      <select disabled>
+        <option>Optimizacion de rutas de reparto para comercios de Lima Metropolitana</option>
+      </select>
+
+      <label>Fecha</label>
+      <input type="text" value="11/12/2026" readonly>
+
+      <label>Hora</label>
+      <input type="text" value="10:00" readonly>
+
+      <label>Sala</label>
+      <select disabled>
+        <option>A-402 - pabellon A</option>
+      </select>
+
+      <label>Modalidad</label>
+      <select disabled>
+        <option>Presencial</option>
+        <option>Virtual</option>
+        <option>Hibrida</option>
+      </select>
+
+      <div class="botones">
+        <a href="#">Cancelar</a>
+        <button type="button">Programar sustentacion</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>Universidad de Lima - Oficina de Trabajos de Fin de Carrera</p>
+  </footer>
+
+</body>
+</html>
